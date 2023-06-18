@@ -1,0 +1,18 @@
+# Example of using a while to square numbers 1 to 20
+Push 1
+Store A
+
+loop:
+ Load A
+ Push 20
+ Ificmpgt halt
+ Load A
+ Dup
+ Mul
+ Syscall 2
+ Inc A
+ Goto loop
+
+halt:
+ Hlt
+

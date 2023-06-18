@@ -1,0 +1,15 @@
+PUSH 10
+STORE A
+
+Loop:
+LOAD A
+PUSH 1
+Ificmplt return
+LOAD A
+Syscall 2
+DEC A
+goto loop
+
+Return:
+ HLT
+

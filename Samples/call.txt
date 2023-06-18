@@ -1,0 +1,20 @@
+Call main
+HLT
+
+main:
+ PUSH 10
+ Store A
+ PUSH 5
+ Store B
+ Call MyAdder
+ STORE Z
+ LOAD Z
+ Syscall 2
+Return
+
+MyAdder:
+ LOAD A
+ LOAD B
+ ADD
+Return
+

@@ -1,0 +1,43 @@
+# Example of using a while loop to list 2 times table
+
+Call printmsg
+SysCall 4
+
+Store t
+PUSH 1
+STORE A
+PUSH 12
+STORE B
+
+loop:
+  Load a
+  Load b
+  ificmpgt halt
+  Load a
+  Load t
+  MUL
+  SysCall 2
+  INC a
+  Goto loop
+
+halt:
+ HLT
+
+ printmsg:
+  ICONST_0
+  PUSH 32
+  Push ':'
+  Push 'e'
+  Push 'l'
+  Push 'b'
+  Push 'a'
+  Push 'T'
+
+  WriteMessage:
+   SysCall 3
+   IfInz WriteMessage
+   Pop
+return
+
+
+

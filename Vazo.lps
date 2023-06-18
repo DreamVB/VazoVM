@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <PathDelim Value="\"/>
+    <Version Value="12"/>
+    <BuildModes Active="Default"/>
+    <Units>
+      <Unit>
+        <Filename Value="Vazo.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <TopLine Value="18"/>
+        <CursorPos X="16" Y="25"/>
+        <UsageCount Value="212"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="units\cstack.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="cStack"/>
+        <EditorIndex Value="3"/>
+        <UsageCount Value="212"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="units\instructions.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="Instructions"/>
+        <EditorIndex Value="2"/>
+        <CursorPos X="34" Y="27"/>
+        <UsageCount Value="212"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="units\vm.pas"/>
+        <IsPartOfProject Value="True"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="167"/>
+        <CursorPos X="20" Y="524"/>
+        <UsageCount Value="212"/>
+        <Loaded Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="units\tools.pas"/>
+        <UnitName Value="Tools"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="7"/>
+        <CursorPos X="20" Y="8"/>
+        <UsageCount Value="211"/>
+      </Unit>
+      <Unit>
+        <Filename Value="units\clables.pas"/>
+        <UnitName Value="cLables"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="43"/>
+        <CursorPos X="69" Y="47"/>
+        <UsageCount Value="259"/>
+      </Unit>
+    </Units>
+    <JumpHistory HistoryIndex="29">
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="431" Column="9" TopLine="413"/>
+      </Position>
+      <Position>
+        <Filename Value="units\instructions.pas"/>
+        <Caret Line="14" Column="33"/>
+      </Position>
+      <Position>
+        <Filename Value="units\instructions.pas"/>
+        <Caret Line="11" Column="46" TopLine="2"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="212" Column="13" TopLine="206"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="257" Column="37" TopLine="236"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="339" Column="9" TopLine="324"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="376" Column="11" TopLine="367"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="374" Column="34" TopLine="346"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="669" Column="39" TopLine="662"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="573" Column="43" TopLine="566"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="42" Column="25" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="715" Column="18" TopLine="707"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="717" Column="13" TopLine="690"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="718" Column="11" TopLine="711"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="720" Column="34" TopLine="695"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="719" Column="14" TopLine="712"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="722" Column="12" TopLine="704"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="735" Column="5" TopLine="704"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="57" Column="30" TopLine="49"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="41" Column="30" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="66" Column="11" TopLine="59"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="591" Column="13" TopLine="584"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="565" TopLine="534"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="564" Column="5" TopLine="552"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="41" Column="49" TopLine="35"/>
+      </Position>
+      <Position>
+        <Filename Value="Vazo.lpr"/>
+        <Caret Line="32" Column="27" TopLine="29"/>
+      </Position>
+      <Position>
+        <Filename Value="Vazo.lpr"/>
+        <Caret Line="44" Column="7" TopLine="31"/>
+      </Position>
+      <Position>
+        <Filename Value="Vazo.lpr"/>
+        <Caret Line="11" Column="3"/>
+      </Position>
+      <Position>
+        <Filename Value="Vazo.lpr"/>
+        <Caret Line="14" Column="24" TopLine="8"/>
+      </Position>
+      <Position>
+        <Filename Value="units\vm.pas"/>
+        <Caret Line="74" Column="32"/>
+      </Position>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes ActiveMode=""/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>

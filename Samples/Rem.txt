@@ -1,0 +1,7 @@
+# Get the remainder of two numbers
+PUSH 11
+PUSH 4
+REM
+SYSCALL 2
+HLT
+

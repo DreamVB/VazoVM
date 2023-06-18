@@ -1,0 +1,4 @@
+PUSH 7
+syscall 3
+HLT
+

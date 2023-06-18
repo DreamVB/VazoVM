@@ -1,0 +1,24 @@
+# Bitwise AND
+PUSH 6
+PUSH 5
+AND
+syscall 2
+
+#Bitwise OR
+PUSH 6
+PUSH 5
+OR
+syscall 2
+
+#Bitwise XOR
+PUSH 6
+PUSH 5
+XOR
+syscall 2
+
+#Bitwise NOT
+PUSH 6
+NOT
+syscall 2
+HLT
+

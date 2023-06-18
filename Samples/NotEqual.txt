@@ -1,0 +1,18 @@
+# Compare
+
+PUSH 5
+STORE A
+PUSH 4
+STORE B
+
+LOAD A
+LOAD B
+Ificmpne End
+
+LOAD A
+Syscall 2
+Goto End
+
+END:
+HLT
+

@@ -1,0 +1,25 @@
+# Swap two vars
+
+PUSH 10
+STORE X
+PUSH 20
+STORE Y
+LOAD Y
+STORE T
+LOAD X
+SysCall 2
+LOAD Y
+SysCall 2
+LOAD X
+STORE Y
+LOAD X
+STORE Y
+LOAD T
+STORE X
+LOAD X
+SysCall 2
+Load Y
+SysCall 2
+HLT
+
+

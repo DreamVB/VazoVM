@@ -1,0 +1,21 @@
+ICONST_0
+Push 10
+Push '!'
+Push 'd'
+Push 'l'
+Push 'r'
+Push 'o'
+Push 'w'
+Push ' '
+Push 'o'
+Push 'l'
+DUP
+Push 'e'
+Push 'H'
+
+hello:
+  syscall 3
+  Ifinz hello
+  Pop
+ HLT
+

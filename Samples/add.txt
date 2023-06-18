@@ -1,0 +1,7 @@
+# Math test
+PUSH 500
+PUSH 900
+Add
+syscall 2
+HLT
+

@@ -1,0 +1,15 @@
+# Var test c = a*b
+
+PUSH 10
+STORE A
+PUSH 3
+STORE B
+LOAD A
+LOAD B
+MUL
+STORE C
+LOAD C
+
+SysCall 2
+HLT
+

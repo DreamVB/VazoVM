@@ -1,0 +1,14 @@
+PUSH 'H'
+syscall 3
+PUSH 'e'
+syscall 3
+PUSH 'l'
+dup
+syscall 3
+syscall 3
+Push 'o'
+syscall 3
+PUSH 10
+syscall 3
+HLT
+

@@ -1,0 +1,15 @@
+PUSH 10
+STORE A
+
+Loop:
+LOAD A
+PUSH 0
+IfIcmplt end
+LOAD A
+Dec A
+Syscall 2
+goto loop
+
+end:
+HLT
+

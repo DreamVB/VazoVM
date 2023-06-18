@@ -1,0 +1,22 @@
+#Shift left
+PUSH 12
+STORE A
+LOAD A
+PUSH 2
+SHL
+STORE B
+LOAD B
+Syscall 2
+
+#shift right
+PUSH 12
+STORE A
+LOAD A
+PUSH 2
+SHR
+STORE B
+LOAD B
+Syscall 2
+
+HLT
+

@@ -1,0 +1,12 @@
+iconst_5
+istore_0
+push 6
+istore_2
+iload_0
+iload_2
+add
+istore_3
+iload_3
+SysCall 2
+
+HLT

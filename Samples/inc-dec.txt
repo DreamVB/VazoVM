@@ -1,0 +1,14 @@
+PUSH 7
+STORE A
+INC A
+LOAD A
+Syscall 2
+
+PUSH 10
+STORE A
+DEC A
+LOAD A
+Syscall 2
+
+HLT
+
