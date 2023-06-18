@@ -29,3 +29,34 @@ Loop:
 end:
 HLT
 ```
+
+## Example of max number
+
+```
+# Find the max of two numbers
+
+PUSH 8
+STORE A
+PUSH 9
+STORE B
+PUSH 0
+STORE C
+
+LOAD A
+LOAD B
+Ificmpgt max
+
+LOAD B
+STORE C
+GOTO END
+
+Max:
+ LOAD A
+ STORE C
+ GOTO END
+
+END:
+ LOAD C
+ SYSCALL 2
+HLT
+```
